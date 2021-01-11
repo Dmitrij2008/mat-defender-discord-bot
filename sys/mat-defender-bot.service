@@ -1,0 +1,12 @@
+[Unit]
+Description=Mat defender - Discord bot for deleting and censoring posts containing obscene language
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/bin/mat-defender-bot
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
