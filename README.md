@@ -22,7 +22,7 @@ MAT defender - это Discord бот для удаления сообщений,
 	sudo systemctl start mat-defender-bot.service
 
 ## Другой дистрибутив GNU/Linux
-Установите из вашего пакетного менеджера: python3 python3-pip
+Установите из вашего пакетного менеджера: `python3 python3-pip`
 
 	pip3 install discord
 	git clone https://github.com/lcomrade/mat-defender-discord-bot.git
