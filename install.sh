@@ -20,4 +20,5 @@ chmod 600 /etc/mat-defender.conf
 chmod 644 /lib/systemd/system/mat-defender-bot.service
 chmod 644 /usr/share/dict/mat
 chmod 600 /log/mat-defender
+chmod 755 /usr/bin/mat-defender-bot-reconfigure
 chmod 755 /bin/mat-defender-bot-uninstall
