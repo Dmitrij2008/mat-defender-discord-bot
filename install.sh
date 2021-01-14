@@ -13,13 +13,13 @@ cp copyright /usr/share/doc/mat-defender-bot/copyright
 
 mkdir -p /var/log/mat-defender
 
-if [ -e $HOME/testing ]
+if [ -f /etc/mat-defender.conf ]
 then
-echo config creation
-python3 /usr/bin/mat-defender-bot-reconfigure
-else
 echo the config already exists
 echo if you want to reconfigure do: python3 / usr / bin / mat-defender-bot-reconfigure
+else
+echo config creation
+python3 /usr/bin/mat-defender-bot-reconfigure
 fi
 
 echo setting access rights
