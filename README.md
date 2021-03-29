@@ -1,5 +1,5 @@
+# MAT Defender Discord bot
 ![CENSURE](https://raw.githubusercontent.com/lcomrade/mat-defender-discord-bot/main/raw/logo_horizontal.jpeg)
-# mat-defender-discord-bot
 MAT defender - это Discord бот для удаления сообщений, содержащих мат. Блокировка мата не зависит от регистра сообщения.
 
 # Системные требования
