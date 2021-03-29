@@ -4,7 +4,7 @@ MAT defender - это Discord бот для удаления сообщений,
 
 # Системные требования
 - python3 (>= 3.5.3)
-- библиотека python 3 [discord.py](https://github.com/Rapptz/discord.py "discord.py")
+- [discord.py](https://github.com/Rapptz/discord.py "discord.py")
 
 # Установка
 ## Debian 10/Buster
@@ -22,7 +22,7 @@ MAT defender - это Discord бот для удаления сообщений,
 	sudo systemctl start mat-defender-bot.service
 
 ## Другой дистрибутив GNU/Linux
-Установите из вашего пакетного менеджера: `python3 python3-pip`
+Установите из вашего менеджера пакетов: `Python 3 и PIP 3`
 
 	pip3 install discord
 	git clone https://github.com/lcomrade/mat-defender-discord-bot.git
